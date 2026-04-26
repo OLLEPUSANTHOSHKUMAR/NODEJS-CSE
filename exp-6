@@ -1,0 +1,9 @@
+<!DOCTYPE book [
+<!ELEMENT book (title,author)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT author (#PCDATA)>
+]>
+<book>
+  <title>Java</title>
+  <author>ABC</author>
+</book>
