@@ -1,0 +1,15 @@
+<form onsubmit="return validate()">
+  <input id="name" placeholder="Enter name">
+  <button>Submit</button>
+</form>
+
+<script>
+function validate(){
+  let name = document.getElementById("name").value;
+  if(name == ""){
+    alert("Name required");
+    return false;
+  }
+  return true;
+}
+</script>
