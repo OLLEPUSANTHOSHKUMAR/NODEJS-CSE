@@ -1,0 +1,21 @@
+/* =========================================================
+GLOBAL STYLING
+This section applies styling to the entire webpage
+========================================================= */
+/*
+body selector targets the complete webpage.
+We set font, background and alignment here.
+*/
+body {
+ font-family: Arial, sans-serif; /* Sets clean readable font */
+background: linear-gradient(to right, #74ebd5, #9face6);
+ /* Creates smooth gradient background */
+ margin: 0; /* Removes default browser margin */
+ padding: 0; /* Removes default padding */
+
+ display: flex; /* Enables flexbox layout */
+ justify-content: center; /* Horizontally center content */
+ align-items: center; /* Vertically center content */
+
+height: 100vh; /
+}
