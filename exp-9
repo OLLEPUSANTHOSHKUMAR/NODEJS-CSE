@@ -1,6 +1,14 @@
+<<<<<<< HEAD
 const http = require('http');
 
 http.createServer((req,res)=>{
   res.write("Hello Node.js");
   res.end();
+=======
+const http = require('http');
+
+http.createServer((req,res)=>{
+  res.write("Hello Node.js");
+  res.end();
+>>>>>>> e8fc74639f8dc020b5dd244f1cc9d86bd10dd1d2
 }).listen(3000);

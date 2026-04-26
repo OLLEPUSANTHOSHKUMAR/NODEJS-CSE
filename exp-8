@@ -1,3 +1,8 @@
+<<<<<<< HEAD
 HttpSession session = request.getSession();
 session.setAttribute("user","Santhosh");
+=======
+HttpSession session = request.getSession();
+session.setAttribute("user","Santhosh");
+>>>>>>> e8fc74639f8dc020b5dd244f1cc9d86bd10dd1d2
 out.println(session.getAttribute("user"));

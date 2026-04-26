@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <form onsubmit="return validate()">
   <input id="name" placeholder="Enter name">
   <button>Submit</button>
@@ -12,4 +13,20 @@ function validate(){
   }
   return true;
 }
+=======
+<form onsubmit="return validate()">
+  <input id="name" placeholder="Enter name">
+  <button>Submit</button>
+</form>
+
+<script>
+function validate(){
+  let name = document.getElementById("name").value;
+  if(name == ""){
+    alert("Name required");
+    return false;
+  }
+  return true;
+}
+>>>>>>> e8fc74639f8dc020b5dd244f1cc9d86bd10dd1d2
 </script>

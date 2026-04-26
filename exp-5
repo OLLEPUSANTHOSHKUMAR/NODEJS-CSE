@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import java.sql.*;
 
 public class Main {
@@ -13,4 +14,21 @@ public class Main {
       System.out.println(rs.getString(2));
     }
   }
+=======
+import java.sql.*;
+
+public class Main {
+  public static void main(String[] args) throws Exception {
+    Connection con = DriverManager.getConnection(
+      "jdbc:mysql://localhost:3306/test","root","1234");
+
+    Statement st = con.createStatement();
+    st.executeUpdate("INSERT INTO users VALUES(1,'Santhu')");
+    ResultSet rs = st.executeQuery("SELECT * FROM users");
+
+    while(rs.next()){
+      System.out.println(rs.getString(2));
+    }
+  }
+>>>>>>> e8fc74639f8dc020b5dd244f1cc9d86bd10dd1d2
 }

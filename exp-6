@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE book [
 <!ELEMENT book (title,author)>
 <!ELEMENT title (#PCDATA)>
@@ -6,4 +7,14 @@
 <book>
   <title>Java</title>
   <author>ABC</author>
+=======
+<!DOCTYPE book [
+<!ELEMENT book (title,author)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT author (#PCDATA)>
+]>
+<book>
+  <title>Java</title>
+  <author>ABC</author>
+>>>>>>> e8fc74639f8dc020b5dd244f1cc9d86bd10dd1d2
 </book>
